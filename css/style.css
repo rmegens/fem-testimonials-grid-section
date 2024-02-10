@@ -1,0 +1,63 @@
+/* styleguide for testimonials grid page */
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;500;600&display=swap');
+
+/* css reset */
+
+/* boilerplate stuff */
+*, *::before, *::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* root variables */
+:root {
+  /* font-weight */
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+
+  /* colorschema */
+  --clr-primary-violet: hsl(263, 55%, 52%);
+  --clr-primary-greyblue: hsl(217, 19%, 35%);
+  --clr-primary-blackblue: hsl(219, 29%, 14%);
+  --clr-primary-white: hsl(0, 0%, 100%);
+  --clr-primary-white-50: hsla(0, 0%, 100%, 0.500);
+  --clr-primary-white-70: hsla(0, 0%, 100%, 0.700);
+  --clr-neutral-gray: hsl(0, 0%, 81%);
+  --clr-neutral-grayblue: hsl(210, 46%, 95%);
+
+  /* viewport sizes */
+  --max-width-screen: 1440px;
+  --min-width-screen: 376px;
+  --min-height-screen: 900px;
+  --max-width-mobile: 375px;
+  --min-height-mobile: 1966px;
+
+  --col-size: 65px;
+  --row-size: 60px;
+  --col-gap: 30px;
+  --row-gap: 12px;
+  
+  --top-left-margin-top: 164px;
+  --top-left-margin-left: 165px;
+  
+}
+
+/* media queries */
+@media screen and (width > 376px) {}
+
+@media screen and (width <= 375px) {}
+
+/* start of styling */
+
+
+/* provided by challenge */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
